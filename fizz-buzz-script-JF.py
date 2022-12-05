@@ -11,7 +11,7 @@ def Fizz_Buzz(f = 3, b = 5, n = 100):
     multiples of both with "FIZZ-BUZZ!".'''
     
     for i in range(1, n + 1):
-        if i%(f*b) == 0:
+        if i%(f) == 0 and i%(b) == 0:
             print("FIZZ-BUZZ!")
         elif i%f == 0:
             print("FIZZ")
